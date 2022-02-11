@@ -1,0 +1,54 @@
+.tada-effect {
+  animation-duration: 1s;
+  animation-name: tada;
+  animation-iteration-count: 2;
+}
+
+@keyframes tada {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.fa-smile-o {
+    font-size: 4.2rem;
+    color: #FFFFFF;
+}
+
+#contact {
+	padding-top: 4rem !important;
+}
+
+#contact-title{
+    margin-top: 5rem;
+}
+
+.contact-info a {
+    color: unset !important;
+}
+
+.contact-info a:hover {
+    color: white !important;
+}
